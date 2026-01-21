@@ -21,3 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "StoneAPP"
 include(":app")
+include(":core-domain")
+include(":core-data")
+include(":feature-home")
