@@ -18,7 +18,7 @@ class FakeItemsRepository : ItemsRepository {
      * - 15% erro
      */
     override suspend fun fetchItems(): List<Item> {
-        delay(1500)
+        delay(1000)
 
         val roll = Random.nextInt(100)
 

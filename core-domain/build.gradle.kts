@@ -18,5 +18,12 @@ android {
 }
 
 dependencies {
-    // Domain propositalmente sem UI e sem testes instrumentados.
+    // produção
+    implementation(libs.androidx.core.ktx)
+
+    // testes unitários
+    testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
 }
+
+
